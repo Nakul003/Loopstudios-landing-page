@@ -6,43 +6,43 @@ import Footer from './components/Footer'
 const App = () => {
   const [images, setImages] = useState([
     {
-      src: "/src/assets/mobile/image-deep-earth.jpg",
-      src2: "/src/assets/desktop/image-deep-earth.jpg",
+      src: "./src/assets/mobile/image-deep-earth.jpg",
+      src2: "./src/assets/desktop/image-deep-earth.jpg",
       text: "DEEP EARTH"
     },
     {
-      src: "/src/assets/mobile/image-night-arcade.jpg",
-      src2: "/src/assets/desktop/image-night-arcade.jpg",
+      src: "./src/assets/mobile/image-night-arcade.jpg",
+      src2: "./src/assets/desktop/image-night-arcade.jpg",
       text: "NIGHT ARCADE"
     },
     {
-      src: "/src/assets/mobile/image-soccer-team.jpg",
-      src2: "/src/assets/desktop/image-soccer-team.jpg",
+      src: "./src/assets/mobile/image-soccer-team.jpg",
+      src2: "./src/assets/desktop/image-soccer-team.jpg",
       text: "SOCCER TEAM VR"
     },
     {
-      src: "/src/assets/mobile/image-grid.jpg",
-      src2: "/src/assets/desktop/image-grid.jpg",
+      src: "./src/assets/mobile/image-grid.jpg",
+      src2: "./src/assets/desktop/image-grid.jpg",
       text: "THE GRID"
     },
     {
-      src: "/src/assets/mobile/image-from-above.jpg",
-      src2: "/src/assets/desktop/image-from-above.jpg",
+      src: "./src/assets/mobile/image-from-above.jpg",
+      src2: "./src/assets/desktop/image-from-above.jpg",
       text: "FROM UP ABOVE VR"
     },
     {
-      src: "/src/assets/mobile/image-pocket-borealis.jpg",
-      src2: "/src/assets/desktop/image-pocket-borealis.jpg",
+      src: "./src/assets/mobile/image-pocket-borealis.jpg",
+      src2: "./src/assets/desktop/image-pocket-borealis.jpg",
       text: "POCKET BOREALIS"
     },
     {
-      src: "/src/assets/mobile/image-curiosity.jpg",
-      src2: "/src/assets/desktop/image-curiosity.jpg",
+      src: "./src/assets/mobile/image-curiosity.jpg",
+      src2: "./src/assets/desktop/image-curiosity.jpg",
       text: "THE CURIOSITY"
     },
     {
-      src: "/src/assets/mobile/image-fisheye.jpg",
-      src2: "/src/assets/desktop/image-fisheye.jpg",
+      src: "./src/assets/mobile/image-fisheye.jpg",
+      src2: "./src/assets/desktop/image-fisheye.jpg",
       text: "MAKE IT FISHEYE"
     }
   ])
