@@ -3,49 +3,66 @@ import { v4 as uuidv4 } from 'uuid';
 import Header from './components/Header'
 import Images from './components/Images'
 import Footer from './components/Footer'
+import deepEarthMobile from './assets/mobile/image-deep-earth.jpg';
+import deepEarthDesktop from './assets/desktop/image-deep-earth.jpg';
+import nightArcadeMobile from './assets/mobile/image-night-arcade.jpg';
+import nightArcadeDesktop from './assets/desktop/image-night-arcade.jpg';
+import soccerTeamMobile from './assets/mobile/image-soccer-team.jpg';
+import soccerTeamDesktop from './assets/desktop/image-soccer-team.jpg';
+import gridMobile from './assets/mobile/image-grid.jpg';
+import gridDesktop from './assets/desktop/image-grid.jpg';
+import fromAboveMobile from './assets/mobile/image-from-above.jpg';
+import fromAboveDesktop from './assets/desktop/image-from-above.jpg';
+import pocketBorealisMobile from './assets/mobile/image-pocket-borealis.jpg';
+import pocketBorealisDesktop from './assets/desktop/image-pocket-borealis.jpg';
+import curiosityMobile from './assets/mobile/image-curiosity.jpg';
+import curiosityDesktop from './assets/desktop/image-curiosity.jpg';
+import fisheyeMobile from './assets/mobile/image-fisheye.jpg';
+import fisheyeDesktop from './assets/desktop/image-fisheye.jpg';
+
 const App = () => {
   const [images, setImages] = useState([
     {
-      src: "./src/assets/mobile/image-deep-earth.jpg",
-      src2: "./src/assets/desktop/image-deep-earth.jpg",
-      text: "DEEP EARTH"
+      src: deepEarthMobile,
+      src2: deepEarthDesktop,
+      text: 'DEEP EARTH',
     },
     {
-      src: "./src/assets/mobile/image-night-arcade.jpg",
-      src2: "./src/assets/desktop/image-night-arcade.jpg",
-      text: "NIGHT ARCADE"
+      src: nightArcadeMobile,
+      src2: nightArcadeDesktop,
+      text: 'NIGHT ARCADE',
     },
     {
-      src: "./src/assets/mobile/image-soccer-team.jpg",
-      src2: "./src/assets/desktop/image-soccer-team.jpg",
-      text: "SOCCER TEAM VR"
+      src: soccerTeamMobile,
+      src2: soccerTeamDesktop,
+      text: 'SOCCER TEAM VR',
     },
     {
-      src: "./src/assets/mobile/image-grid.jpg",
-      src2: "./src/assets/desktop/image-grid.jpg",
-      text: "THE GRID"
+      src: gridMobile,
+      src2: gridDesktop,
+      text: 'THE GRID',
     },
     {
-      src: "./src/assets/mobile/image-from-above.jpg",
-      src2: "./src/assets/desktop/image-from-above.jpg",
-      text: "FROM UP ABOVE VR"
+      src: fromAboveMobile,
+      src2: fromAboveDesktop,
+      text: 'FROM UP ABOVE VR',
     },
     {
-      src: "./src/assets/mobile/image-pocket-borealis.jpg",
-      src2: "./src/assets/desktop/image-pocket-borealis.jpg",
-      text: "POCKET BOREALIS"
+      src: pocketBorealisMobile,
+      src2: pocketBorealisDesktop,
+      text: 'POCKET BOREALIS',
     },
     {
-      src: "./src/assets/mobile/image-curiosity.jpg",
-      src2: "./src/assets/desktop/image-curiosity.jpg",
-      text: "THE CURIOSITY"
+      src: curiosityMobile,
+      src2: curiosityDesktop,
+      text: 'THE CURIOSITY',
     },
     {
-      src: "./src/assets/mobile/image-fisheye.jpg",
-      src2: "./src/assets/desktop/image-fisheye.jpg",
-      text: "MAKE IT FISHEYE"
-    }
-  ])
+      src: fisheyeMobile,
+      src2: fisheyeDesktop,
+      text: 'MAKE IT FISHEYE',
+    },
+  ]);
 
   return (
     <div>
