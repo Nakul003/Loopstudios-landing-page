@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- [Visit live site](https://nakul003.github.io/Frontend-Projects/Loopstudios-landing-page/)
+- [Visit live site](https://nakul003.github.io/Loopstudios-landing-page/)
 - [Visit profile on frontend Mentor](https://www.frontendmentor.io/profile/Nakul003)
 
 
